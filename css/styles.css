@@ -31,12 +31,12 @@ body {
 
 ::selection {
     color: #fff;
-    background: #f49500;
+    background: #3f62bf;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #f49500;
+    background: #3f62bf;
 }
 
 p {
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    background: #f49500;
+    background: #3f62bf;
 }
 
 .btn:hover {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #f49500;
+    color: #3f62bf;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: #f49500;
+    background: #3f62bf;
 }
 
 .form-control {
@@ -201,7 +201,7 @@ a:hover {
 .header {
     position: fixed;
     width: 100%;
-    background: #ffa831;
+    background: #3f62bf;
     z-index: 50;
     border-radius: 0;
     top: 0px;
@@ -213,17 +213,17 @@ a:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #f49500;
-    background-color: #f49500;
+    border-color: #3f62bf;
+    background-color: #3f62bf;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-        /*background-color: #f49500;*/
+        background-color: #3f62bf;
     ;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background: #f49500;
+    background: #3f62bf;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -358,7 +358,7 @@ a:hover {
     border: 1px solid #fff;
     border-top: none;
     border-bottom: none;
-    background: #FFC780;
+    background: #3f62bf;
 }
 
 .navbar-nav > li:hover > a {
@@ -534,29 +534,29 @@ img, video, iframe, embed, object {
 }
 /* Features
     -------------------------------------------------*/
-#features {
+#products {
     background: #fff;
     padding-top: 35px;
     padding-bottom: 25px;
     overflow: hidden;
 }
 
-#features .feature {
+#products .feature {
     margin-top: 30px;
     margin-bottom: 54px;
 }
 
-#features .right {
+#products .right {
     padding-left: 32px;
     float: right;
 }
 
-#features .left {
+#products .left {
     padding-right: 32px;
     float: left;
 }
 
-#features h3 {
+#products h3 {
     font: 18px/34px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -567,12 +567,12 @@ img, video, iframe, embed, object {
     margin-top: 18px;
 }
 
-#features .left {
+#products .left {
     padding-right: 32px;
     float: left;
 }
 
-#features .right {
+#products .right {
     padding-left: 32px;
     float: right;
 }
@@ -653,7 +653,7 @@ img, video, iframe, embed, object {
 }
 
 #contactUs {
-    /*background: #f49500;*/;
+    background: #f49500;
 }
 
 #contactUs .btn {
