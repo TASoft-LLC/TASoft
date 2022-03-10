@@ -653,7 +653,7 @@ img, video, iframe, embed, object {
 }
 
 #contactUs {
-    background: #f49500;
+    background: #3465a4;
 }
 
 #contactUs .btn {
@@ -1115,7 +1115,7 @@ footer {
 	}
     .banner-container > img {
         width: 100%;
-        height: 140px;
+        height: 200px;
     }
 
     .navbar {
