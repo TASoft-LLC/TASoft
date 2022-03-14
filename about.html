@@ -11,7 +11,6 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
 <link href="css/style.css" rel="stylesheet" />
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -22,8 +21,9 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<!-- start header -->
-	<header>
+		<header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -32,15 +32,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="20%" height="auto" alt="logo"/>TASoft</a>
+                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="20%" height="auto" alt="logo"/>TASoft</a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav ms-auto">
-                        <li class="active"><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="products.html">Products</a></li>
+                    <ul class="nav navbar-nav ">
+                        <li><a href="index.html">Home</a></li> 
+						<li class="active"><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
 						<li><a href="services.html">Services</a></li>
-
                         <li class="dropdown">
                         	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         	Science<span class="caret"></span></a>  
@@ -51,31 +50,49 @@
                         </li>
                         <li><a href="contact.html">Contact</a></li>
                                        <li><a href="https://tasoft-llc.github.io/TASoftblog/" target="_blank">Blog</a></li>
-                        
                     </ul>
                 </div>
             </div>
         </div>
-	</header>
-	<!-- end header -->
-	
-	<section id="featured">
-	   <div class="banner-container"> <img src="img/ai-for-finance-banner.jpeg" alt="banner" />
-    <div class="container banner-content">
-      <div class="hero-text animated fadeInDownBig">
-        <h1 class="responsive-headline" style="font-size: 40px;">Time-Series Forecasting -- At the edge of science and technology</h1>
-        <p>Today's Stock Future Highlight: <br/>
-          50 days forecasting for CEI</p>
-      </div>
-      
-      <!-- <a class="hero-button learn-more smoothscroll text-center" href="#features">Learn More</a>-->
-      <div class="hero-img"> <img src="img/stockfuture.png" alt="image" width="20%" height="auto" class="text-center animated fadeInUpBig"/></div>
+	</header><!-- end header -->
+ 	
+	<section id="content">
+  <div class="container bg-primary">
+    <div class="heading text-left"> 
+      <h2>About TASoft LLC</h2>
     </div>
-  	</div>
- 
-	</section>
+    <div class="row">
+      <div class="col-md-4 mcbook" data-animated="bounceInLeft"> <img src="img/tasofttheory.bmp" class="fitImage" alt="img" /> </div>
+       <div class="col-md-8">
+        <h3>A brief history of TASoft LLC</h3>
+        <ul>
+	        <li>At the beginning of 2018, <a style="color:yellow" href="https://www.linkedin.com/in/frank-zhu-743600107"  target="_blank">Dr. Frank Zhu</a> 
+	        invented Time-Series Forecasting Theory on 
+	        historical Time-Series Data and founded TASoft LLC.
+	        <ul>
+	        <li>RAPTOR: TASoft LLC Software developments disciplines
+	        <ul>
+	        	<li>R:(User)Responsiveness
+	        	<li>A:Autonomy
+	        	<li>P:Protection
+	        	<li>T:Transparency
+	        	<li>O:Openess
+	        	<li>R:(Practitioner) Responsiveness
+	        </ul>
+	        </ul>
+	        <li>2018-2021, many years practice and testing on Stock Historical Data.</li>
+	        <li>At the end of 2021, we eventually solved the 
+        mathematical problem  and therefore we are able to achieve forecasting
+        accuracy consistently. Both theoretically and practically, it is proven to be successful beyond 50 days forecasting.
+	        </li>
+        </ul>
+        </div>
+    </div>
+  </div>
+
+</section>
 	<footer>
-		<div class="container bg-secondary">
+		<div class="container  bg-secondary">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="copyright">

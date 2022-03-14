@@ -11,7 +11,6 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
 <link href="css/style.css" rel="stylesheet" />
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -22,8 +21,9 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<!-- start header -->
-	<header>
+		<header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -35,12 +35,12 @@
                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="20%" height="auto" alt="logo"/>TASoft</a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav ms-auto">
-                        <li class="active"><a href="index.html">Home</a></li> 
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li> 
 						<li><a href="about.html">About Us</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="services.html">Services</a></li>
 
+                        <li class="active"><a href="products.html">Products</a></li>
+ 						<li><a href="services.html">Services</a></li>
                         <li class="dropdown">
                         	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         	Science<span class="caret"></span></a>  
@@ -56,24 +56,77 @@
                 </div>
             </div>
         </div>
-	</header>
-	<!-- end header -->
-	
-	<section id="featured">
-	   <div class="banner-container"> <img src="img/ai-for-finance-banner.jpeg" alt="banner" />
-    <div class="container banner-content">
-      <div class="hero-text animated fadeInDownBig">
-        <h1 class="responsive-headline" style="font-size: 40px;">Time-Series Forecasting -- At the edge of science and technology</h1>
-        <p>Today's Stock Future Highlight: <br/>
-          50 days forecasting for CEI</p>
-      </div>
-      
-      <!-- <a class="hero-button learn-more smoothscroll text-center" href="#features">Learn More</a>-->
-      <div class="hero-img"> <img src="img/stockfuture.png" alt="image" width="20%" height="auto" class="text-center animated fadeInUpBig"/></div>
+	</header><!-- end header -->
+		<section id="services">
+  <div class="container bg-primary">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>Products</h2>
+      <p>TASoft LLC time-series forecasting has four types of forecasting products.</p>
     </div>
-  	</div>
- 
-	</section>
+    <div class="row"> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"> 
+      	<img src="img/products/csv.png" width="35%" >
+        <h3>Stock Forecasting Data (Available)</h3>
+        <p>Variety of stock forecasting data in csv format includes</p>
+        <ul>
+        <li>Stock forecasting in customer defined days (e.g. 50 days)
+        <li>Entire nano, micro or small cap stocks future price forecasting
+        </ul>
+      </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center">
+        <img src="img/products/stockvisualizer.png" width="40%" >
+        <h3>Stock forecasting visualizer (discussion)</h3>
+        <p>Visualization of Stock forecasting data and other stock technical indicators.</p>
+      </div>
+      <!-- end: --> 
+        <div class="col-md-3 text-center">
+        <img src="img/products/software.jpg" width="30%" >
+        <h3>Full Stock Forecasting Software (discussion)</h3>
+        <p>TASoft Stock Forecasting tool and forecasting visualizer.</p>
+      	</div>
+      	
+      	      <!-- end: --> 
+        <div class="col-md-3 text-center">
+        <img src="img/products/software.jpg" width="30%" >
+        <h3>General time-series forecasting (pending)</h3>
+        <p>TASoft Forecasting general time-series tool and forecasting visualizer.</p>
+      	</div>
+    </div>
+  </div>
+  </section>
+<!--  
+	<section id="product">
+  <div class="container bg-primary">
+    <div class="row feature design">
+      <div class="six columns right">
+        <h3>Stock Forecasting Data Reader.</h3>
+        <p> </p>
+      </div>
+      <div class="six columns feature-media left"> <img src="img/feature-img-1.png" alt=""> </div>
+    </div>
+    <div class="row feature responsive">
+      <div class="six columns left">
+        <h3>Stock Forecasting Full Product.</h3>
+        <p></p>
+      </div>
+      <div class="six columns feature-media right"> <img src="img/feature-img-2.png" alt=""> </div>
+    </div>
+    <div class="row feature cross-browser">
+      <div class="six columns right">
+        <h3>Customized TimeSeries Forecasting Products</h3>
+        <p> </p>
+      </div>
+      <div class="six columns feature-media left"> <img src="img/feature-img-3.png" alt=""> </div>
+    </div>
+  </div>
+  </section>
+   -->
 	<footer>
 		<div class="container bg-secondary">
 			<div class="row">

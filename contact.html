@@ -11,13 +11,7 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
 <link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
 </head>
 <body>
@@ -32,15 +26,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="20%" height="auto" alt="logo"/>TASoft</a>
+                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="20%" height="auto" alt="logo"/>TASoft</a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav ms-auto">
-                        <li class="active"><a href="index.html">Home</a></li> 
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li> 
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="products.html">Products</a></li>
 						<li><a href="services.html">Services</a></li>
-
                         <li class="dropdown">
                         	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         	Science<span class="caret"></span></a>  
@@ -49,33 +42,62 @@
                         		<li><a href="science/resources.html">Resources</a></li>
                         	</ul> 
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
                                        <li><a href="https://tasoft-llc.github.io/TASoftblog/" target="_blank">Blog</a></li>
                         
                     </ul>
                 </div>
             </div>
         </div>
-	</header>
-	<!-- end header -->
-	
-	<section id="featured">
-	   <div class="banner-container"> <img src="img/ai-for-finance-banner.jpeg" alt="banner" />
-    <div class="container banner-content">
-      <div class="hero-text animated fadeInDownBig">
-        <h1 class="responsive-headline" style="font-size: 40px;">Time-Series Forecasting -- At the edge of science and technology</h1>
-        <p>Today's Stock Future Highlight: <br/>
-          50 days forecasting for CEI</p>
+	</header><!-- end header -->
+
+<section id="contactUs" class="contact-parlex">
+  <div class="parlex-back">
+    <div class="container bg-primary">
+      <div class="row">
+        <div class="heading text-center"> 
+          <!-- Heading -->
+          <h2>Contact Us</h2>
+        </div>
       </div>
-      
-      <!-- <a class="hero-button learn-more smoothscroll text-center" href="#features">Learn More</a>-->
-      <div class="hero-img"> <img src="img/stockfuture.png" alt="image" width="20%" height="auto" class="text-center animated fadeInUpBig"/></div>
+      <div class="row mrgn30">
+        <form method="post" action="mailto:tasoft.io@gmail.com" id="contactfrm" role="form">
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="comments">Comments</label>
+              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+            </div>
+            <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+            <div class="result"></div>
+          </div>
+        </form>
+        <div class="col-sm-4">
+          <h4>Email:</h4>
+          <address>
+          tasoft.io@gmail.com<br>
+          </address>
+          <h4>Phone:</h4>
+          <address>
+          301-300-1842<br>
+          </address>
+        </div>
+      </div>
     </div>
-  	</div>
- 
-	</section>
+    <!--/.container--> 
+  </div>
+</section>
 	<footer>
-		<div class="container bg-secondary">
+		<div class="container  bg-secondary">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="copyright">
@@ -107,5 +129,6 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/validate.js"></script>
 </body>
 </html>
