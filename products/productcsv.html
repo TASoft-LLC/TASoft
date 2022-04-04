@@ -13,10 +13,17 @@
 <link href="../css/flexslider.css" rel="stylesheet" />
 <link href="../css/style.css" rel="stylesheet" />
  
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" href="../css/product/tablestyle.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script data-require="jquery" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <style type="text/css" title="currentStyle">
+    @import "https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css";
+  </style>
+  <script src="../js/product/setting.js"></script>
 
 </head>
 <body>
@@ -65,6 +72,9 @@
      </div>
        <div class="col-md-8">
         <h3>CSV products</h3>
+          <div class="tablestyle">
+    <table id="example" class="display" width="1024px"></table>
+
  <!--       <ul>
 	        <li><a style="color:white" href="https://shaileydash.medium.com/an-overview-of-time-series-forecasting-models-part-1-classical-time-series-forecasting-models-2d877de76e0f" target="_blank">An Overview of Time Series Forecasting Models</a></li>
 	        <li><a style="color:white" href="https://arxiv.org/pdf/1302.6613.pdf" target="_blank">An Introductory Study on Time Series Modeling and Forecasting

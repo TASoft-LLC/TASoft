@@ -1,4 +1,4 @@
-$(document).ready(function () {
+jQuery(document).ready(function () {
     var visibility = false;
     var table = $('#example').DataTable({
         data: dataSet,
