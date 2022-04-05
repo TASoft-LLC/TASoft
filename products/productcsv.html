@@ -14,17 +14,12 @@
 <link href="../css/style.css" rel="stylesheet" />
  
   <link rel="stylesheet" href="../css/product/tablestyle.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script data-require="jquery" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-  <style type="text/css" title="currentStyle">
-    @import "https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css";
-  </style>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+  <script src="../js/jquery.js"></script> 
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
   <script src="../js/product/setting.js"></script>
-
+ <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+ 
 </head>
 <body>
 <div id="wrapper">
@@ -68,19 +63,23 @@
     <div class="heading text-left"> 
       <!--< Heading -->
       <h2>CSV Products</h2>
-      <p></p>
+      <h3>CSV products: CEI forecast csv data from 2021-11-24</h3>
      </div>
-       <div class="col-md-8">
-        <h3>CSV products</h3>
-          <div class="tablestyle">
-    <table id="example" class="display" width="1024px"></table>
+     <div class="row">
 
- <!--       <ul>
-	        <li><a style="color:white" href="https://shaileydash.medium.com/an-overview-of-time-series-forecasting-models-part-1-classical-time-series-forecasting-models-2d877de76e0f" target="_blank">An Overview of Time Series Forecasting Models</a></li>
-	        <li><a style="color:white" href="https://arxiv.org/pdf/1302.6613.pdf" target="_blank">An Introductory Study on Time Series Modeling and Forecasting
-	        </a></li>
-        </ul> -->  
-       </div>
+       <div class="col-md-5">
+            <p>CEI Forecasting CSV data</p>
+    <table id="forecast" style="background-color:gray" class="display">
+    </table>
+  </div>
+         <div class="col-md-5">
+         	<p>CEI Forecasting Corresponding Graph</p>
+         	<p></p>
+         	<p></p>
+         	
+               	<img src="../img/products/CEI.jpeg" width="100%" >
+         </div>
+  </div>
   </div>
 </section>
 	<footer>
@@ -103,10 +102,7 @@
 	</footer>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="../js/jquery.js"></script>
+
 <script src="../js/jquery.easing.1.3.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.fancybox.pack.js"></script>

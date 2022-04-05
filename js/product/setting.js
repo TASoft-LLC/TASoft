@@ -1,46 +1,4 @@
-jQuery(document).ready(function () {
-    var visibility = false;
-    var table = $('#example').DataTable({
-        data: dataSet,
-        columns: [
-            { title: "Trading Date" },
-            { title: "Forecast Close Price" },
-            { title: "Actual Close Price" }
-        ]
-    });
 
-    $('#example tbody').css('visibility', 'hidden');
-
-    $('#example thead').on('click', function () {
-        visibility = !visibility;
-        $('#example tbody').css('visibility', visibility ? 'visible' : 'hidden');
-
-    });
-
-    $('#example tbody').on('click', 'tr', function () {
-        var data = table.row(this).data();
-        // data has selected row contents
-        var matchedEmployee = $.grep(salary, function (v) {
-            return v[0] === data[0];
-        });
-
-        console.log(matchedEmployee);
-        $('#expanded').DataTable({
-            data: matchedEmployee,
-            columns: [
-                { title: "Employee ID" },
-                { title: "Salary" }
-            ],
-            paging: false,
-            searching: false,
-            "bDestroy": true
-        });
-
-        $('#expanded').css('display', 'block');
-    });
-});
-
-//sample data for upper table
 var dataSet = [
 	["2021-11-24","1.2931","1.37"],
 	["2021-11-26","1.0122","1.37"],
@@ -143,4 +101,18 @@ var dataSet = [
 	["2022-04-15","0.7612",""],
 	["2022-04-18","1.8213",""]
 ];
+
+$(document).ready(function() {
+    $('#forecast').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Date" },
+            { title: "Forecast Close Price" },
+            { title: "Actual Close Price" }
+        ],
+		"rowCallback": function(row,data,index){
+			$('td',row).css('background-color','gray');
+		}
+    } );
+} );
 
