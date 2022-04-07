@@ -1,6 +1,7 @@
 
 
 $(document).ready(function() {
+	
 	var commonstyle = "<li><a style=\"color:white\" href=\"";
 	var linka=commonstyle+"../education/signal-sector.html\">"
 	+"Sector Movement Combination</a>"
@@ -23,5 +24,17 @@ $(document).ready(function() {
 	var cul = "</ul>"; 
 	var text = ul+titlea+ul+linka+cul+titleb+ul+linkb+cul+titlec+ul+linkc+cul+titled+ul+linkd+cul+cul;     
 	$("#commonlink").html(text);
+		
+	var commonh="<div class=\"heading text-left\">"
+         + "<h2>Short Term Trading Scenarios</h2>"
+      +"<p>Short term trading is based on TASoft LLC daily forecasting. "
+	+"TASoft LLC has conducted trading practices with its forecasting for several years in"
+    +" the process of improving our mathematical solution. "
+	+"As part of forecasting guided stock trading education, "
+	+"we summaries optimized use scenarios with the TASoft LLC based forecasting trading. </p>"
+     +"</div>";	
+	$("#commonheader").html(commonh);
+	
 	});
+
 
