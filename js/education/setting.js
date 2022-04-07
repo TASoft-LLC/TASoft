@@ -35,7 +35,7 @@ $(document).ready(function() {
 		
 	var commonh="<div class=\"heading text-left\">"
          + "<h2>Short Term Trading Scenarios</h2>"
-      +"<p>Short term trading is based on TASoft LLC daily forecasting, "
+      +"<h4>Short term trading is based on TASoft LLC daily forecasting, "
 	+"which is forecasting on stock daily close price."
 	+"TASoft LLC has conducted trading practices with its forecasting for several years in"
     +" the process of improving our mathematical solution. "
@@ -45,7 +45,7 @@ $(document).ready(function() {
 	+"we summaries optimized use scenarios with the TASoft LLC based forecasting trading. "
 	+ "The trading scenarios listed here are work in process. They are used to illustrate trading"
 	+ " scenarios only. Any suggested trading scenarios"
-	+ "are encouraged and we might consider as add-on. <a style=\"color:white\" href=\"../contact.html\">Contact Us for Suggestions</a></p>"
+	+ "are encouraged and we might consider as add-on. <a style=\"color:white\" href=\"../contact.html\">Contact Us for Suggestions</a></h4>"
      +"</div>";	
 	$("#commonheader").html(commonh);
 	
