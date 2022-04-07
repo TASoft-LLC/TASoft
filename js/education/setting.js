@@ -43,8 +43,9 @@ $(document).ready(function() {
 	+"cuing from other trading indicators and stock fundamental financials."
 	+"As part of forecasting guided stock trading education, "
 	+"we summaries optimized use scenarios with the TASoft LLC based forecasting trading. "
-	+ "The trading scenarios listed here are work in process, suggested trading scenarios"
-	+ "are encouraged. <a style=\"color:white\" href=\"../contact.html\">Contact Us for Suggestions</a></p>"
+	+ "The trading scenarios listed here are work in process. They are used to illustrate trading"
+	+ " scenarios only. Any suggested trading scenarios"
+	+ "are encouraged and we might consider as add-on. <a style=\"color:white\" href=\"../contact.html\">Contact Us for Suggestions</a></p>"
      +"</div>";	
 	$("#commonheader").html(commonh);
 	
