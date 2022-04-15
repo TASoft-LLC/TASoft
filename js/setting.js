@@ -61,7 +61,7 @@ $(document).ready(function() {
 	
 	var sciencelinkc = "science/science.html\">Foundational Science</a>";
 	var sciencelink = aul+sciencelinkc;
-	var sciencelink1= aul+level1+sciencelink;
+	var sciencelink1= aul+level1+sciencelinkc;
 	var resourcelinkc = "science/resources.html\">Resources</a>";
 	var resourcelink = aul+resourcelinkc;
 	var resourcelink1 = aul+level1+resourcelinkc;
