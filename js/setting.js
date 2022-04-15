@@ -38,6 +38,10 @@ $(document).ready(function() {
 	var aboutlinka = aaul+aboutlinkc;
 	var aboutlink = aul+aboutlinkc;
 	var aboutlink1= aul+level1+aboutlinkc;
+	var faqlinkc ="faq.html\">FAQ</a>";
+	var faqlink = aul+faqlinkc;
+	var faqlinka= aaul+faqlinkc;
+	var faqlink1= aul+level1+faqlinkc;
 	var productlinkc = "products.html\">Products</a>";
 	var productlink = aul+productlinkc;
 	var productlinka = aaul+productlinkc;
@@ -76,44 +80,49 @@ $(document).ready(function() {
 	var navcollapse = "<div class=\"navbar-collapse collapse \">"
                    +"<ul class=\"nav navbar-nav\">";
 
-	var navindexlink = navcommon+navbarhead+navcollapse+indexlinka+aboutlink
+	var navindexlink = navcommon+navbarhead+navcollapse+indexlinka+aboutlink+faqlink
 					+productlink+servicelink
 					+navdropdown
 					+contactlink+bloglink
 					+cul+cdiv+cdiv+cdiv;
-	var navaboutlink = navcommon+navbarhead+navcollapse+indexlink+aboutlinka
+	var navaboutlink = navcommon+navbarhead+navcollapse+indexlink+aboutlinka+faqlink
 					+productlink+servicelink
 					+navdropdown
 					+contactlink+bloglink
 					+cul+cdiv+cdiv+cdiv;
-	var navproductlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink
+	var navfaqlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlinka
+					+productlink+servicelink
+					+navdropdown
+					+contactlink+bloglink
+					+cul+cdiv+cdiv+cdiv;
+	var navproductlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlink
 					+productlinka+servicelink
 					+navdropdown
 					+contactlink+bloglink
 					+cul+cdiv+cdiv+cdiv;
-	var navservicelink = navcommon+navbarhead+navcollapse+indexlink+aboutlink
+	var navservicelink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlink
 					+productlink+servicelinka
 					+navdropdown
 					+contactlink+bloglink
 					+cul+cdiv+cdiv+cdiv;
-	var navcontactlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink
+	var navcontactlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlink
 					+productlink+servicelink
 					+navdropdown
 					+contactlinka+bloglink
 					+cul+cdiv+cdiv+cdiv;	
-	var navcontactlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink
+	var navcontactlink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlink
 					+productlink+servicelink
 					+navdropdown
 					+contactlinka+bloglink
 					+cul+cdiv+cdiv+cdiv;	
 					
-	var navbloglink = navcommon+navbarhead+navcollapse+indexlink+aboutlink
+	var navbloglink = navcommon+navbarhead+navcollapse+indexlink+aboutlink+faqlink
 					+productlink+servicelink
 					+navdropdown
 					+contactlink+bloglinka
 					+cul+cdiv+cdiv+cdiv;				
  
-	var navsublink = navcommon+navbarhead1+navcollapse+indexlink1+aboutlink1
+	var navsublink = navcommon+navbarhead1+navcollapse+indexlink1+aboutlink1+faqlink1
 					+productlink1+servicelink1
 					+navdropdown1
 					+contactlink1+bloglink1
@@ -121,6 +130,7 @@ $(document).ready(function() {
 	  
 	$("#indexlink").html(navindexlink);
 	$("#aboutlink").html(navaboutlink);
+	$("#faqlink").html(navfaqlink);
 	$("#productlink").html(navproductlink);
 	$("#servicelink").html(navservicelink);
 	$("#contactlink").html(navcontactlink);
