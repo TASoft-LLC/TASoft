@@ -1334,7 +1334,9 @@ ul.team-detail li{
 	padding:0 0 15px 0;
 	list-style:none;
 }
-
+label {
+	color:black;
+}
 ul.team-detail li label {
 	font-size:13px;
 }
