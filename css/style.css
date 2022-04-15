@@ -51,6 +51,7 @@ h1,h2, h3, h4, h5, h6 {
     border-bottom: 2px #f49500 solid;
 }
 
+
 .section-container {
     width: 100%; 
     position: relative;
@@ -2011,6 +2012,12 @@ bottom:0;
 
 
 }
+
+section {
+	min-height:70vh;
+	background-color:#2fadde;	
+}
+
 section.callaction h1{
 color:#fff;
 }

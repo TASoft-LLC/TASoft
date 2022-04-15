@@ -112,6 +112,7 @@ $(document).ready(function() {
         ],
 		"rowCallback": function(row,data,index){
 			$('td',row).css('background-color','gray');
+			$('td',row).css('color','white');
 		}
     } );
 } );
