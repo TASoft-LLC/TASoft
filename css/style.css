@@ -41,7 +41,7 @@ h1,h2, h3, h4, h5, h6 {
 
 /*--- Banner ----*/
 .banner-container {
-    height: 100%;
+    width: 100%;
     position: relative;
     padding: 0px;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
@@ -73,6 +73,7 @@ h1,h2, h3, h4, h5, h6 {
 
     
 .banner-container > img {
+	min-height:70vh;
     width: 100%; 
 }
 
