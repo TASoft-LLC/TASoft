@@ -73,7 +73,7 @@ h1,h2, h3, h4, h5, h6 {
 
     
 .banner-container > img {
-	min-height:70vh;
+	min-height:50vh;
     width: 100%; 
 }
 
@@ -528,7 +528,7 @@ font-weight: normal;
 }
 
 #featured{
-	min-height:40vh;
+	min-height:50vh;
 	width: 100%;
 	background:#333333;
 	position:relative;
