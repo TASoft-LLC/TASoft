@@ -41,7 +41,7 @@ h1,h2, h3, h4, h5, h6 {
 
 /*--- Banner ----*/
 .banner-container {
-/*	min-height: 70vh; */
+	min-height: 70vh; 
     width: 100%;
     position: relative;
     padding: 0px;
