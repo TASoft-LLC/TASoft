@@ -528,9 +528,9 @@ font-weight: normal;
 }
 
 #featured{
-	min-height:40vh;
+	min-height:20vh;
 	width: 100%;
-	background:#2fadde;
+	background:#333333;
 	position:relative;
 	margin:0;
 	padding:0;
