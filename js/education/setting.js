@@ -10,11 +10,11 @@ $(document).ready(function() {
 	var linka1=commonstyle+"../education/signal-sector.html\">"
 	+"Sector Movement Combination</a>"
 	var linka2 = commonstyle+"../education/ureverse.html\">"
-	+"U reverse on its own</a>";
+	+"U reversal on its own</a>";
 	var linka3=commonstyle+"../education/other-doublelows.html\">Double lows</a>";	
  	var linka4 = commonstyle+"../education/other-oversold.html\">Oversold</a>"	
 
-	var titlea = "<li  style=\"color:black\">Looking for bottom reverse";
+	var titlea = "<li  style=\"color:black\">Looking for bottom reversal";
 	var linka = titlea+ul+linka1+linka2+linka3+linka4+cul;
 	
 	var linkb1=commonstyle+"../education/signal-er.html\">"
