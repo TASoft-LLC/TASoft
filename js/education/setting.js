@@ -14,7 +14,7 @@ $(document).ready(function() {
 	var linka3=commonstyle+"../education/other-doublelows.html\">Double lows</a>";	
  	var linka4 = commonstyle+"../education/other-oversold.html\">Oversold</a>"	
 
-	var titlea = "<li  style=\"color:black\">Looking for reverse";
+	var titlea = "<li  style=\"color:black\">Looking for bottom reverse";
 	var linka = titlea+ul+linka1+linka2+linka3+linka4+cul;
 	
 	var linkb1=commonstyle+"../education/signal-er.html\">"
