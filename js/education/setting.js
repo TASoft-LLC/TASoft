@@ -9,28 +9,32 @@ $(document).ready(function() {
 	var commonstyle = "<li><a style=\"color:white\" href=\"";
 	var linka1=commonstyle+"../education/signal-sector.html\">"
 	+"Sector Movement Combination</a>"
-	var titlea = "<li  style=\"color:black\">Sector Movement Combination";
-	var linka = titlea+ul+linka1+cul;
+	var linka2 = commonstyle+"../education/ureverse.html\">"
+	+"U reverse on its own</a>";
+	var linka3=commonstyle+"../education/other-doublelows.html\">Double lows</a>";	
+ 	var linka4 = commonstyle+"../education/other-oversold.html\">Oversold</a>"	
+
+	var titlea = "<li  style=\"color:black\">Looking for reverse";
+	var linka = titlea+ul+linka1+linka2+linka3+linka4+cul;
 	
 	var linkb1=commonstyle+"../education/signal-er.html\">"
 	+"Following Positive ER</a>";
 	var linkb2 = commonstyle+"../education/signal-positivenews.html\">"
 	+"Following Positive News</a>";
-	var titleb ="<li style=\"color:black\">Trading Signal Combination";
+	var titleb ="<li style=\"color:black\">Up trend trading";
 	var linkb = titleb+ul+linkb2+cul;
 	
 	var linkc1=commonstyle+"../education/bbandbottom.html\">"
 	+"Bollinger Bands trading strategy combination</a>";
 	var linkc2=commonstyle+"../education/bbandnoise.html\">Bollinger Bands trading strategy: noise</a>";
-	var titlec="<li style=\"color:black\">Bollinger Bands Combination";
+	var titlec="<li style=\"color:black\">Noise trading";
 	var linkc = titlec+ul+linkc2+cul;
 	
-	var linkd1=commonstyle+"../education/other-doublelows.html\">Double lows</a>";
- 	var linkd2 = commonstyle+"../education/other-oversold.html\">Oversold</a>"	
+
  	var linkd3=commonstyle+"../education/other-overbought.html\">Overbought</a>";	
 	var titled="<li style=\"color:black\">Other Trading Signals Combination";
-	var linkd = titled+ul+linkd1+linkd2+cul;
-	var text = headtext + ul+linka+linkb+linkc+linkd+cul;     
+	var linkd = titled+ul+linkd3+cul;
+	var text = headtext + ul+linka+linkb+linkc+cul;     
 	$("#commonlink").html(text);
 		
 	var commonh="<div class=\"heading text-left\">"
