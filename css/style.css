@@ -1697,6 +1697,14 @@ ul.social-network li {
 	
 }
 
+a {
+	color:white;
+	text-decoration:underline;
+	font-style: italic;
+}
+a:hover {
+	color:orange;
+}
 a.scrollup {
 	outline:0;
 	text-align: center;
