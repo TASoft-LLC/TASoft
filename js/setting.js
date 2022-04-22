@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 	var aul="<li><a style=\"color:#a40000;font-weight:bold;text-decoration:none\" href=\"";
-	var aaul ="<li class=\"active\"><a style=\"color:#a40000;font-weight:bold;text-decoration:none\" href=\"";
+	var aaul ="<li class=\"active\"><a style=\"font-weight:bold;text-decoration:none\" href=\"";
 	var cul ="</ul>";
 
 	var cdiv = "</div>";
