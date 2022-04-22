@@ -44,7 +44,7 @@ $(document).ready(function() {
 	+"TASoft LLC has conducted trading practices with its forecasting for several years in"
     +" the process of improving our mathematical solution. "
 	+"While forecasting alone already shows high accuracy, it might gain confidence with "
-	+"cuing from other trading indicators and stock fundamental financials."
+	+"cuing from other trading indicators and stock fundamental financials. "
 	+"As part of forecasting guided stock trading education, "
 	+"we summaries optimized use scenarios with the TASoft LLC based forecasting trading. "
 	+ "The trading scenarios listed here are work in process. They are used to illustrate trading"
