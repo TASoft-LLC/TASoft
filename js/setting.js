@@ -2,8 +2,8 @@
 
 $(document).ready(function() {
 
-	var aul="<li><a style=\"text-decoration:none\" href=\"";
-	var aaul ="<li class=\"active\"><a style=\"text-decoration:none\" href=\"";
+	var aul="<li><a style=\"color:#a40000;font-weight:bold;text-decoration:none\" href=\"";
+	var aaul ="<li class=\"active\"><a style=\"color:#a40000;font-weight:bold;text-decoration:none\" href=\"";
 	var cul ="</ul>";
 
 	var cdiv = "</div>";
@@ -18,11 +18,11 @@ $(document).ready(function() {
                      + "<span class=\"icon-bar\"></span>"
                      + "<span class=\"icon-bar\"></span>"
                      + "</button>";
-    var navheadlink = "<a style=\"text-decoration:none\" class=\"navbar-brand\" href=\""
+    var navheadlink = "<a style=\"color:#a40000;font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
 					+ level+"index.html\"><img src=\""
 					+ level+"img/logo.png\" width=\"20%\""
 					+" height=\"auto\" alt=\"logo\"/>TASoft</a>";
-	var navheadlink1 = "<a style=\"text-decoration:none\" class=\"navbar-brand\" href=\""
+	var navheadlink1 = "<a style=\"color:#a40000;font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
 					+ level1+"index.html\"><img src=\""
 					+ level1+"img/logo.png\" width=\"20%\""
 					+" height=\"auto\" alt=\"logo\"/>TASoft</a>";
@@ -70,7 +70,7 @@ $(document).ready(function() {
 	var scenariolink1 = aul+level1+scenariolinkc;
 
 	var dropdownlink = "<li class=\"dropdown\">"
-  					+"<a style=\"text-decoration:none\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">"
+  					+"<a style=\"color:#a40000;font-weight:bold;text-decoration:none\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">"
                     +"Science<span class=\"caret\"></span></a>"  
                     +"<ul class=\"dropdown-menu\" >";
 
