@@ -18,11 +18,11 @@ $(document).ready(function() {
                      + "<span class=\"icon-bar\"></span>"
                      + "<span class=\"icon-bar\"></span>"
                      + "</button>";
-    var navheadlink = "<a style=\"color:#a40000;font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
+    var navheadlink = "<a style=\"font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
 					+ level+"index.html\"><img src=\""
 					+ level+"img/logo.png\" width=\"20%\""
 					+" height=\"auto\" alt=\"logo\"/>TASoft</a>";
-	var navheadlink1 = "<a style=\"color:#a40000;font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
+	var navheadlink1 = "<a style=\"font-weight:bold;text-decoration:none\" class=\"navbar-brand\" href=\""
 					+ level1+"index.html\"><img src=\""
 					+ level1+"img/logo.png\" width=\"20%\""
 					+" height=\"auto\" alt=\"logo\"/>TASoft</a>";
