@@ -480,6 +480,9 @@ header ul.nav li ul li ul {
 color: #10131A;  
 }
 
+li {
+	color:white;	
+}
 
 ul.nav li.dropdown a {
 	z-index:1000;

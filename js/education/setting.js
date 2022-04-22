@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	var ul="<ul>";
 	var cul = "</ul>"; 	
-	var commonstyle = "<li><a style=\"color:white\" href=\"";
+	var commonstyle = "<li><a href=\"";
 	var linka1=commonstyle+"../education/signal-sector.html\">"
 	+"Sector Movement Combination</a>"
 	var linka2 = commonstyle+"../education/ureverse.html\">"
@@ -48,8 +48,8 @@ $(document).ready(function() {
 	+"As part of forecasting guided stock trading education, "
 	+"we summaries optimized use scenarios with the TASoft LLC based forecasting trading. "
 	+ "The trading scenarios listed here are work in process. They are used to illustrate trading"
-	+ " scenarios only. Any suggested trading scenarios"
-	+ "are encouraged and we might consider as add-on. <a style=\"color:white\" href=\"../contact.html\">Contact Us for Suggestions</a></h4>"
+	+ " scenarios only. Any suggested trading scenarios "
+	+ "are encouraged and we might consider as add-on. <a href=\"../contact.html\">Contact Us for Suggestions!</a></h4>"
      +"</div>";	
 	$("#commonheader").html(commonh);
 	
