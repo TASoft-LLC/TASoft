@@ -40,7 +40,7 @@ $(document).ready(function() {
 	var commonh="<div class=\"heading text-left\">"
          + "<h2>Short Term Trading Scenarios</h2>"
       +"<h4>Short term trading is based on TASoft LLC daily forecasting, "
-	+"which is forecasting on stock daily close price."
+	+"which is forecasting on stock daily close price. "
 	+"TASoft LLC has conducted trading practices with its forecasting for several years in"
     +" the process of improving our mathematical solution. "
 	+"While forecasting alone already shows high accuracy, it might gain confidence with "
